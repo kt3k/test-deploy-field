@@ -4,7 +4,7 @@
     "build": "deno task build",
     "mode": "static",
     "staticDir": "dist",
-    "signlePageApp": true
+    "singlePageApp": true
   },
   "tasks": {
     "build": "deno -A build.ts"
