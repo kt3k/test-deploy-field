@@ -2,9 +2,9 @@
   "deploy": {
     "install": "deno install",
     "build": "deno task build",
-    "mode": "static",
-    "staticDir": "dist",
-    "signlePageApp": true
+    "mode": "dynamic",
+    "entrypoint": "foobar.ts",
+    "args": "--foo --bar"
   },
   "tasks": {
     "build": "deno -A build.ts"
