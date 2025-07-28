@@ -3,7 +3,8 @@
     "install": "deno install",
     "build": "deno task build",
     "mode": "dynamic",
-    "entrypoint": "foobar.ts"
+    "entrypoint": "foobar.ts",
+    "args": "--foo --bar"
   },
   "tasks": {
     "build": "deno -A build.ts"
