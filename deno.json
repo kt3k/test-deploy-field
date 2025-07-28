@@ -1,0 +1,11 @@
+{
+  "deploy": {
+    "install": "deno install",
+    "build": "deno task build"
+    "mode": "dynamic",
+    "entrypoint": "foobar.ts",
+  },
+  "tasks": {
+    "build": "deno -A build.ts"
+  }
+}
